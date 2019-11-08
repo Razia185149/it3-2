@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    height: 200px;
+    background-color: #84a3e1;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 27px;
+}
+
+#name-text {
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 4%;
+}
+
+#container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+}
+
+#login-form {
+    width: 55%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#form-inputs {
+    width:55%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#name-input {
+    margin-left: 56px;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    background-color: #84a3e1;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#login-btn {
+    width: 120px;
+    margin: 0 auto;
+}
+
+#welcome-message {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+#appointments {
+    width: 100%;
+}
+
+#single-appointment {
+    width: 55%;
+    height: 400px;
+    background-color: #84a3e1;
+    margin: 0 auto;
+}
+
+#cancel-btn {
+    float: right;
+    background-color: white;
+    color: #84a3e1;
+}
+
+#appointment-form {
+    padding: 40px;
+    padding-top: 20px;
+}
+
+
+#first{
+    margin-top: 70px;
+}
+
+#time-input, #date-input, #address-input {
+    width: 300px;
+}
+
+#time-input{
+    margin-left: 200px;
+}
+
+#date-input{
+    margin-left: 180px;
+}
+
+#address-input{
+    margin-left: 133px;
+}
+
+#first, #second, #third{
+    font-weight: bold;
+}
+
+#confirm-message{
+    width: 53%;
+    margin: 50px auto;
+    height: 100px;
+    background-color: #84a3e1;
+    padding: 20px;
+    /*display: none*/
+}
+
+#question{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.answer-btn{
+    background-color: white !important;
+    color: black !important;
+    padding: 10px 25px !important;
+}
+
+#buttons{
+    width: 30%;
+    margin: 10px auto;
+}
